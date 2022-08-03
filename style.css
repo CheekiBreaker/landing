@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+.bg {
+  z-index: 99;
+  height: 98%;
+  width: 100%;
+  background-image: url(https://thumbs.dreamstime.com/b/%C3%A9cran-abstrait-de-programmation-de-code-de-programmateur-de-logiciel-46326557.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.wrap {
+  height: 100%;
+}
+.firstScreen {
+  color: white;
+  font-size: 1.2em;
+  text-shadow: #000 1px 1px 1px;
+  position: relative;
+  top: 350px;
+  left: 200px;
+  width: 700px;
+  height: 220px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+
+  pre {
+    font-size: 0.7em;
+    word-break: break-all;
+  }
+}
+.man {
+  position: relative;
+  left: 1000px;
+  top: 100px;
+}
+
+.test {
+  text-align: center;
+  border-radius: 50px;
+  width: 300px;
+  height: 500px;
+  background-color: white;
+}
+
+#c {
+  width: 200px;
+  height: 200px;
+}
+.slider {
+  width: 500px;
+  background: rgba(0, 90, 50, 0.7);
+}
