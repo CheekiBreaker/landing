@@ -1,0 +1,137 @@
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.vertical-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  overflow-x: hidden;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: #e0dfdf;
+  min-width: 50vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4ch;
+}
+
+section:nth-child(even) {
+  background-color: #048a81;
+  color: white;
+}
+
+header {
+  height: 100%;
+  width: 100%;
+  background-color: #06d6a0;
+}
+
+.mainContent {
+  height: 100%;
+  width: 100%;
+  background-color: #e0dfdf;
+}
+
+.skill-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-head {
+  position: relative;
+  left: 150px;
+  top: -300px;
+}
+
+.skill-img {
+  filter: grayscale(100%);
+  position: relative;
+  top: 150px;
+  width: 400px;
+  height: 450px;
+}
+.skill-level {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  border-radius: 50%;
+  border: 10px solid;
+}
+.content
+  > content
+  > section
+  > .skill-section
+  > .skill-container
+  > .skill-card
+  > .skill-about:nth-child(1)
+  .skill-level {
+  background: #ff4f4f28;
+  border-color: #ff4f4f;
+  color: #ff4f4f;
+}
+.content:nth-child(2) .skill-img {
+  border-radius: 50px;
+}
+.content
+  > content
+  > section
+  > .skill-section
+  > .skill-container
+  > .skill-card
+  > .skill-about:nth-child(2)
+  .skill-level {
+  background: #4fa0ff28;
+  border-color: #4fa0ff;
+  color: #4fa0ff;
+}
+/* .skill-card:nth-child(2) .skill-level {
+    text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 95px;
+  height: 95px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px white;
+  border: 6px solid #ec5800;
+
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 95px;
+  height: 95px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px white;
+  border: 6px solid #49fb35;
+} */
+.skill-about {
+  width: 400px;
+  height: 350px;
+  position: relative;
+  top: -250px;
+}
